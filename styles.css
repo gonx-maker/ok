@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #004AAD;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  h1, h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  section {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .servicios ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .servicios li::before {
+    content: \"✔️\";
+    margin-right: 8px;
+    color: green;
+  }
+  
+  a {
+    color: #004AAD;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    background: #eee;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
